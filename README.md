@@ -25,10 +25,10 @@ This algorithm can take any recorded video (or, even live camera feed!) and tran
 This algorithm is inspired from Adrian Rosebrock from pyimagesearch, be sure to check him out for a more in depth guide and more blog posts like this project. 
 
 
-To detect the eye blinks from a video, this program considers the * *E*ye *A*spect *R*atio*, which is defined as:
+To detect the eye blinks from a video, this program considers the *Eye Aspect Ratio*, which is defined as:
 
 <p align="center">
-  <img src="eqauation.png" />
+  <img src="equation.png" />
 </p>
 
 These points p1 ... p6 refer to facial landmarks associated with the eye as follows: 
