@@ -93,16 +93,24 @@ while True:
                 
                 if total_blink_time < 0.5:
                     sb += 1
+                    string += "-"
+                
+                key = cv2.waitKey(1) & 0xFF
+                
+                if key == ord(" "):
+                    string += " "
+                
                 else:
                     lb += 1
+                    string += "."
             
             COUNTER = 0
             start = 0
 
-        cv2.putText(frame, "Blinks: {}".format(TOTAL), (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
-        cv2.putText(frame, "EAR: {:.2f}".format(ear), (300, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
-        cv2.putText(frame, "SB: {}".format(sb), (10, 300), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
-        cv2.putText(frame, "LB: {}".format(lb), (300, 300), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
+        cv2.putText(frame, "Blinks: {}".format(TOTAL), (10, 30), cv2.FONT_HERSHEY_COMPLEX, 0.7, (0, 0, 255), 2)
+        cv2.putText(frame, "EAR: {:.2f}".format(ear), (300, 30), cv2.FONT_HERSHEY_COMPLEX, 0.7, (0, 0, 255), 2)
+        cv2.putText(frame, "SB: {}".format(sb), (10, 300), cv2.FONT_HERSHEY_COMPLEX, 0.7, (0, 0, 255), 2)
+        cv2.putText(frame, "LB: {}".format(lb), (300, 300), cv2.FONT_HERSHEY_COMPLEX, 0.7, (0, 0, 255), 2)
 
     cv2.imshow("Frame", frame)
     key = cv2.waitKey(1) & 0xFF
