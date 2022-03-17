@@ -64,7 +64,10 @@ All packages except dlib are pretty straightforward. If you do not have them you
   <summary> CMake </summary>    
     Dlib is written in C/C++, and your computer needs to *build* the package, so you need something that can automate that build process. Head over here and download the file that is the best for you. I recommend the .msi file since it is much easier (tip - make sure to add the Windows PATH during installation) :
     
-<img src="Cmake.png"/>
+    
+<p align="center">
+  <img src="equation.png" />
+</p>
     
     After that just follow the steps in the installer
 </details>
