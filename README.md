@@ -27,7 +27,6 @@ This algorithm is inspired from Adrian Rosebrock from pyimagesearch, be sure to 
 
 To detect the eye blinks from a video, this program considers the * *E*ye *A*spect *R*atio*, which is defined as:
 
-equation image
 
 These points p1 ... p6 refer to facial landmarks associated with the eye as follows: 
 
