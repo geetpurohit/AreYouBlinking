@@ -27,10 +27,15 @@ This algorithm is inspired from Adrian Rosebrock from pyimagesearch, be sure to 
 
 To detect the eye blinks from a video, this program considers the * *E*ye *A*spect *R*atio*, which is defined as:
 
+<p align="center">
+  <img src="eqauation.png" />
+</p>
 
 These points p1 ... p6 refer to facial landmarks associated with the eye as follows: 
 
-eye image
+<p align="center">
+  <img src="eyeimage.png" />
+</p>
 
 As one can see, when you consider the EAR, it rapidly decreases when your eyes are closed and stays approximately around a reasonable threshold when open. We use this threshold to determine if your eye has blinked or not.
 
