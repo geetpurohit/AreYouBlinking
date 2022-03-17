@@ -15,7 +15,7 @@ Are you taken hostage by a dictator and have no way of communicating with the ou
 Fret not! I have you covered 🤝. Just blink away your secret message in Morse Code and this program will take care of the rest.
 
 
-# what does this program do?
+# What does this program do?
 
 This algorithm can take any recorded video (or, even live camera feed!) and translate the blinks into Morse Code, and then to English in real time. That means, you can send an SOS signal or even the location of those cruel perpetrators to the police. 
 
