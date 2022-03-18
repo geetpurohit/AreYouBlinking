@@ -62,7 +62,7 @@ All packages except dlib are pretty straightforward. If you do not have them you
 
 <details> 
   <summary> CMake </summary>    
-    Dlib is written in C/C++, and your computer needs to *build* the package, so you need something that can automate that build process. Head over here and download the file that is the best for you. I recommend the .msi file since it is much easier (tip - make sure to add the Windows PATH during installation). :
+    Dlib is written in C/C++, and your computer needs to *build* the package, so you need something that can automate that build process. Head over [here](https://cmake.org/download/) and download the file that is the best for you. I recommend the .msi file since it is much easier (tip - make sure to add the Windows PATH during installation). :
     
 <p align="center">
   <img src="Cmake.png" />
@@ -73,7 +73,7 @@ All packages except dlib are pretty straightforward. If you do not have them you
 
 <details>
     <summary>Visual Studio</summary>
-    This one can be a little tricky. While Visual Studio is a great tool that functions as a compiler for the C based packages/libraries, what we really need is the C++ CMake tools for Windows option that is provided as an optional addition when you install Visual Studio. Head over here to download it. Once you are on the screen where you can select the different modules to download, you can refer to this image to make sure you are downloading the right tools for this program:
+    This one can be a little tricky. While Visual Studio is a great tool that functions as a compiler for the C based packages/libraries, what we really need is the C++ CMake tools for Windows option that is provided as an optional addition when you install Visual Studio. Head over [here](https://visualstudio.microsoft.com/visual-cpp-build-tools/) to download it. Once you are on the screen where you can select the different modules to download, you can refer to this image to make sure you are downloading the right tools for this program:
     
 <p align="center">
   <img src="vs.png" />
