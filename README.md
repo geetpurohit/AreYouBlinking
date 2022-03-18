@@ -58,7 +58,7 @@ There are some pre-requisites before getting started. I will list the versions I
 
 ### Dlib installation
 
-All packages except dlib are pretty straightforward. If you do not have them you can just run ```pip install [package-name]"``` in your promopt (Anaconda prompt or cmd, wherever you can run `pip`) without the square brackets for any package. However, dlib requires a little... convincing. It is because dlib is a C++ library that employs machine learning, linear algebra and computer vision to perform numerical operations efficiently and portably. I will go over how to install dlib on Windows 10/11. The prequesites are:
+All packages except dlib are pretty straightforward. If you do not have them you can just run ```pip install [package-name]"``` in your promopt (Anaconda prompt or cmd, wherever you can run `pip`) without the square brackets for any package. However, dlib requires a little... convincing. It is because dlib is a C++ library that employs machine learning, linear algebra and computer vision to perform numerical operations efficiently and portably. I will go over how to install dlib on Windows 10/11. The prequesites are [Cmake](https://cmake.org/download/) and [Visual Studio](https://visualstudio.microsoft.com/visual-cpp-build-tools/):
 
 <details> 
   <summary> CMake </summary>    
@@ -72,7 +72,7 @@ All packages except dlib are pretty straightforward. If you do not have them you
 
 
 <details>
-    <summary>Visual Studio ([Link](https://visualstudio.microsoft.com/visual-cpp-build-tools/))</summary>
+    <summary>Visual Studio</summary>
     This one can be a little tricky. While Visual Studio is a great tool that functions as a compiler for the C based packages/libraries, what we really need is the C++ CMake tools for Windows option that is provided as an optional addition when you install Visual Studio. Once you are on the screen where you can select the different modules to download, you can refer to this image to make sure you are downloading the right tools for this program:
     
 <p align="center">
