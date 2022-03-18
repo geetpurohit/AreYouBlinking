@@ -62,7 +62,7 @@ All packages except dlib are pretty straightforward. If you do not have them you
 
 <details> 
   <summary> CMake </summary>    
-    Dlib is written in C/C++, and your computer needs to *build* the package, so you need something that can automate that build process. Head over [here](https://cmake.org/download/) and download the file that is the best for you. I recommend the .msi file since it is much easier (tip - make sure to add the Windows PATH during installation). :
+    Dlib is written in C/C++, and your computer needs to *build* the package, so you need something that can automate that build process. Head over to the download link given above and download the file that is the best for you. I recommend the .msi file since it is much easier (tip - make sure to add the Windows PATH during installation). :
     
 <p align="center">
   <img src="Cmake.png" />
