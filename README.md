@@ -73,7 +73,7 @@ All packages except dlib are pretty straightforward. If you do not have them you
 
 <details>
     <summary>Visual Studio</summary>
-    This one can be a little tricky. While Visual Studio is a great tool that functions as a compiler for the C based packages/libraries, what we really need is the C++ CMake tools for Windows option that is provided as an optional addition when you install Visual Studio. Head over [here](https://visualstudio.microsoft.com/visual-cpp-build-tools/) to download it. Once you are on the screen where you can select the different modules to download, you can refer to this image to make sure you are downloading the right tools for this program:
+    This one can be a little tricky. While Visual Studio is a great tool that functions as a compiler for the C based packages/libraries, what we really need is the C++ CMake tools for Windows option that is provided as an optional addition when you install Visual Studio. Head over [here](https://visualstudio.microsoft.com/visual-cpp-build-tools/) to download it. This site was built using [GitHub Pages](https://pages.github.com/). Once you are on the screen where you can select the different modules to download, you can refer to this image to make sure you are downloading the right tools for this program:
     
 <p align="center">
   <img src="vs.png" />
